@@ -1,0 +1,29 @@
+* {
+  position: relative;
+}
+
+@font-face {
+    font-family: "Comic Sans";
+    src: url(LDFComicSans.ttf);
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2 {
+  font-family: "Comic Sans";
+}
+
+#fritter {
+  z-index: 999;
+  top: 200px;
+}
+
+#whiteGuy {
+  z-index: 0;
+}
+p {
+  font-size: 18px;
+}
